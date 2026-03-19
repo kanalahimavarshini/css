@@ -71,3 +71,16 @@ span {
   top: 20px;
   left: 30px;
 }
+.container {
+  display: flex;
+  justify-content: center;   /* horizontal */
+  align-items: center;       /* vertical */
+  height: 100vh;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background: orange;
+}
