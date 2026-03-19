@@ -94,3 +94,23 @@ span {
   background: lightgreen;
   padding: 20px;
 }
+button {
+  background: blue;
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: red;
+}
+
+/* Animation */
+@keyframes move {
+  from { left: 0; }
+  to { left: 200px; }
+}
+
+.box {
+  position: relative;
+  animation: move 2s infinite alternate;
+}
