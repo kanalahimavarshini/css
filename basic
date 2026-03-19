@@ -141,3 +141,6 @@ input:focus {
 h1 {
   color: var(--main-color);
 }
+box {
+  box-shadow: 2px 2px 10px gray;
+}
