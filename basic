@@ -134,3 +134,10 @@ p::first-letter {
 input:focus {
   border: 2px solid blue;
 }
+:root {
+  --main-color: blue;
+}
+
+h1 {
+  color: var(--main-color);
+}
