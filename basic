@@ -189,3 +189,5 @@ h1 {
   display: flex;
   align-items: center;
 }
+img { float: left; }
+.clear { clear: both; }
