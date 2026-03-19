@@ -84,3 +84,13 @@ span {
   margin: 10px;
   background: orange;
 }
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.box {
+  background: lightgreen;
+  padding: 20px;
+}
