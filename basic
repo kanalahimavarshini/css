@@ -33,3 +33,15 @@ div {
   border: 5px solid black;
   margin: 10px;
 }
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: #ff5733;
+}
+
+div {
+  background-image: url("image.jpg");
+  background-size: cover;
+}
