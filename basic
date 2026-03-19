@@ -192,3 +192,10 @@ h1 {
 img { float: left; }
 .clear { clear: both; }
 grid-template-columns: minmax(100px, 1fr);
+:root {
+  --color: blue;
+}
+
+p {
+  color: var(--color);
+}
