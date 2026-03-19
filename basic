@@ -8,3 +8,22 @@ h1 { color: blue; }
 
 <!-- External CSS -->
 <link rel="stylesheet" href="style.css">
+/* Element selector */
+p {
+  color: green;
+}
+
+/* Class selector */
+.box {
+  background-color: yellow;
+}
+
+/* ID selector */
+#title {
+  font-size: 30px;
+}
+
+/* Group selector */
+h1, h2, p {
+  font-family: Arial;
+}
