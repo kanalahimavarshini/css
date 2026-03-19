@@ -147,3 +147,38 @@ box {
 div {
   background: linear-gradient(to right, red, yellow);
 }
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.card {
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px gray;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+button {
+  background: blue;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <h2>Product</h2>
+  <p>Price: ₹500</p>
+  <button>Buy Now</button>
+</div>
+
+</body>
+</html>
