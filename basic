@@ -260,3 +260,32 @@ button:hover {
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.card {
+  width: 250px;
+  padding: 20px;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px gray;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px gray;
+  transform: scale(1.05);
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <h2>Product</h2>
+  <p>Price: ₹500</p>
+</div>
+
+</body>
+</html>
