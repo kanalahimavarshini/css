@@ -123,3 +123,14 @@ body {
     background: lightgray;
   }
 }
+a:hover {
+  color: red;
+}
+
+p::first-letter {
+  font-size: 30px;
+}
+
+input:focus {
+  border: 2px solid blue;
+}
