@@ -45,3 +45,10 @@ div {
   background-image: url("image.jpg");
   background-size: cover;
 }
+p {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
