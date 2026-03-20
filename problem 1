@@ -43,3 +43,20 @@ button:hover {
   <div class="box"></div>
   <div class="box"></div>
 </div>
+<style>
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.box {
+  background: lightgreen;
+  margin: 5px;
+  padding: 20px;
+}
+</style>
+
+<div class="container">
+  <div class="box">1</div>
+  <div class="box">2</div>
+  <div class="box">3</div>
+</div>
