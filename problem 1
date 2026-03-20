@@ -3,3 +3,9 @@ body {
   background-color: lightblue;
 }
 </style>
+<style>
+h1 {
+  text-align: center;
+}
+</style>
+<h1>Welcome</h1>
