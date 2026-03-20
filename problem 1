@@ -27,3 +27,19 @@ button:hover {
 }
 </style>
 <button>Click</button>
+<style>
+.container {
+  display: flex;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background: orange;
+  margin: 5px;
+}
+</style>
+
+<div class="container">
+  <div class="box"></div>
+  <div class="box"></div>
+</div>
