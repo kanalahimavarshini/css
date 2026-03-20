@@ -96,3 +96,24 @@ body {
   }
 }
 </style>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  height: 100vh;
+  background: linear-gradient(to right, purple, pink);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+Gradient Background
+
+</body>
+</html>
