@@ -376,3 +376,16 @@ button:hover {
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  color: green;
+}
+</style>
+</head>
+<body>
+<p>Hello CSS</p>
+</body>
+</html>
