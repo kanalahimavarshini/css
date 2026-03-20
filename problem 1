@@ -117,3 +117,25 @@ Gradient Background
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input {
+  padding: 10px;
+  border: 2px solid gray;
+  outline: none;
+}
+
+input:focus {
+  border-color: blue;
+  box-shadow: 0 0 5px blue;
+}
+</style>
+</head>
+<body>
+
+<input type="text" placeholder="Enter name">
+
+</body>
+</html>
