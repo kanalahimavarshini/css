@@ -9,3 +9,11 @@ h1 {
 }
 </style>
 <h1>Welcome</h1>
+<style>
+.box {
+  border: 2px solid black;
+  padding: 20px;
+  width: 200px;
+}
+</style>
+<div class="box">Box</div>
