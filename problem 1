@@ -17,3 +17,13 @@ h1 {
 }
 </style>
 <div class="box">Box</div>
+<style>
+button {
+  background: blue;
+  color: white;
+}
+button:hover {
+  background: red;
+}
+</style>
+<button>Click</button>
