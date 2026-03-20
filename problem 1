@@ -85,3 +85,14 @@ button:hover {
 </style>
 
 <div class="box"></div>
+<style>
+body {
+  background: white;
+}
+
+@media (max-width: 600px) {
+  body {
+    background: gray;
+  }
+}
+</style>
