@@ -166,3 +166,15 @@ h1 {
 </style>
 
 <h1>Shadow Text</h1>
+<style>
+.header {
+  position: sticky;
+  top: 0;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+</style>
+
+<div class="header">Sticky Header</div>
+<p>Scroll content...</p>
