@@ -225,3 +225,19 @@ img:hover {
   Hover me
   <span class="text">Tooltip text</span>
 </div>
+<style>
+.bar {
+  width: 100%;
+  background: lightgray;
+}
+
+.progress {
+  width: 70%;
+  height: 20px;
+  background: green;
+}
+</style>
+
+<div class="bar">
+  <div class="progress"></div>
+</div>
