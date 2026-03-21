@@ -258,3 +258,15 @@ img:hover {
   <img src="https://via.placeholder.com/100">
   <img src="https://via.placeholder.com/100">
 </div>
+<style>
+.box {
+  opacity: 0;
+  animation: fade 2s forwards;
+}
+
+@keyframes fade {
+  to { opacity: 1; }
+}
+</style>
+
+<div class="box">Fade In</div>
