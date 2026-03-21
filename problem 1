@@ -241,3 +241,20 @@ img:hover {
 <div class="bar">
   <div class="progress"></div>
 </div>
+<style>
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.gallery img {
+  width: 100%;
+}
+</style>
+
+<div class="gallery">
+  <img src="https://via.placeholder.com/100">
+  <img src="https://via.placeholder.com/100">
+  <img src="https://via.placeholder.com/100">
+</div>
