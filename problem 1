@@ -159,3 +159,10 @@ img {
 </style>
 
 <img src="https://via.placeholder.com/150">
+<style>
+h1 {
+  text-shadow: 2px 2px 5px gray;
+}
+</style>
+
+<h1>Shadow Text</h1>
