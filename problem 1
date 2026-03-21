@@ -178,3 +178,15 @@ h1 {
 
 <div class="header">Sticky Header</div>
 <p>Scroll content...</p>
+<style>
+.box {
+  width: 200px;
+  height: 100px;
+  overflow: scroll;
+  border: 1px solid black;
+}
+</style>
+
+<div class="box">
+  Long content Long content Long content Long content
+</div>
