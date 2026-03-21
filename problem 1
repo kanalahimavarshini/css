@@ -201,3 +201,27 @@ img:hover {
 </style>
 
 <img src="https://via.placeholder.com/200">
+<style>
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .text {
+  visibility: hidden;
+  background: black;
+  color: white;
+  padding: 5px;
+  position: absolute;
+  top: 100%;
+}
+
+.tooltip:hover .text {
+  visibility: visible;
+}
+</style>
+
+<div class="tooltip">
+  Hover me
+  <span class="text">Tooltip text</span>
+</div>
