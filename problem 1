@@ -270,3 +270,11 @@ img:hover {
 </style>
 
 <div class="box">Fade In</div>
+<style>
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+</style>
+
+<input type="checkbox">
