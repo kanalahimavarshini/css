@@ -190,3 +190,14 @@ h1 {
 <div class="box">
   Long content Long content Long content Long content
 </div>
+<style>
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1;
+}
+</style>
+
+<img src="https://via.placeholder.com/200">
