@@ -150,3 +150,12 @@ button {
 </style>
 
 <button>Rounded</button>
+<style>
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+</style>
+
+<img src="https://via.placeholder.com/150">
