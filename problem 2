@@ -97,3 +97,10 @@ button:active {
 </style>
 
 <button>Click</button>
+<style>
+p {
+  column-count: 3;
+}
+</style>
+
+<p>Long text content goes here for columns...</p>
