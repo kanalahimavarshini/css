@@ -290,3 +290,30 @@ input[type="checkbox"] {
   <h3>Title</h3>
   <p>Description</p>
 </div>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="card">Glass Effect</div>
+
+</body>
+</html>
