@@ -149,3 +149,12 @@ h1 {
 </style>
 
 <h1>Gradient Text</h1>
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>
+
+<a href="#bottom">Go Down</a>
+<div style="height:1000px;"></div>
+<div id="bottom">Bottom</div>
