@@ -110,3 +110,23 @@ body {
   backdrop-filter: blur(5px);
 }
 </style>
+<style>
+.badge {
+  position: relative;
+}
+
+.badge span {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+</style>
+
+<div class="badge">
+  🔔
+  <span>3</span>
+</div>
