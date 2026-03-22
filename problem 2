@@ -85,3 +85,15 @@ a:hover::after {
   Menu
   <div class="menu">Option 1</div>
 </div>
+<style>
+button {
+  position: relative;
+  overflow: hidden;
+}
+
+button:active {
+  background: gray;
+}
+</style>
+
+<button>Click</button>
