@@ -65,3 +65,23 @@ a:hover::after {
 </style>
 
 <a href="#">Hover Link</a>
+<style>
+.dropdown {
+  position: relative;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  background: lightgray;
+}
+
+.dropdown:hover .menu {
+  display: block;
+}
+</style>
+
+<div class="dropdown">
+  Menu
+  <div class="menu">Option 1</div>
+</div>
