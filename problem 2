@@ -1,0 +1,22 @@
+<style>
+.container {
+  position: relative;
+  width: 300px;
+}
+
+.container img {
+  width: 100%;
+}
+
+.text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+}
+</style>
+
+<div class="container">
+  <img src="https://via.placeholder.com/300">
+  <div class="text">Hello</div>
+</div>
