@@ -104,3 +104,9 @@ p {
 </style>
 
 <p>Long text content goes here for columns...</p>
+<style>
+body {
+  background: url('https://via.placeholder.com/500');
+  backdrop-filter: blur(5px);
+}
+</style>
