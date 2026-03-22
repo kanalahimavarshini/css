@@ -140,3 +140,12 @@ body {
 </style>
 
 <div class="switch"></div>
+<style>
+h1 {
+  background: linear-gradient(red, blue);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+</style>
+
+<h1>Gradient Text</h1>
