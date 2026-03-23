@@ -282,3 +282,11 @@ img {
 </style>
 
 <img src="https://via.placeholder.com/150">
+<style>
+::selection {
+  background: yellow;
+  color: black;
+}
+</style>
+
+<p>Select this text</p>
