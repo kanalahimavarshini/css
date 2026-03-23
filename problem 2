@@ -158,3 +158,26 @@ html {
 <a href="#bottom">Go Down</a>
 <div style="height:1000px;"></div>
 <div id="bottom">Bottom</div>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background: white;
+  color: black;
+}
+
+.dark {
+  background: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<button onclick="document.body.classList.toggle('dark')">Toggle Mode</button>
+
+<p>Dark Mode Example</p>
+
+</body>
+</html>
