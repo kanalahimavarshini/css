@@ -222,3 +222,17 @@ button {
 </style>
 
 <div class="box">Centered Text</div>
+<style>
+.box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  transition: 0.3s;
+}
+
+.box:hover {
+  border-color: red;
+}
+</style>
+
+<div class="box"></div>
