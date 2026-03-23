@@ -258,3 +258,15 @@ img:hover {
 </style>
 
 <img src="https://via.placeholder.com/200">
+<style>
+input {
+  width: 100px;
+  transition: 0.3s;
+}
+
+input:focus {
+  width: 200px;
+}
+</style>
+
+<input type="text" placeholder="Search">
