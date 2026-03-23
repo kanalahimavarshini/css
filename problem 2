@@ -196,4 +196,19 @@ button {
 }
 </style>
 
-<button>Pulse</button>
+<button>Pulse</button
+  <style>
+.card {
+  width: 200px;
+  border: 1px solid gray;
+}
+
+.card img {
+  width: 100%;
+}
+</style>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200">
+  <p>Card Text</p>
+</div>
