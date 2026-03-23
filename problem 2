@@ -236,3 +236,14 @@ button {
 </style>
 
 <div class="box"></div>
+<style>
+.line {
+  border-left: 2px solid black;
+  padding-left: 10px;
+}
+</style>
+
+<div class="line">
+  <p>Step 1</p>
+  <p>Step 2</p>
+</div>
