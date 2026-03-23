@@ -270,3 +270,15 @@ input:focus {
 </style>
 
 <input type="text" placeholder="Search">
+<style>
+img {
+  width: 150px;
+  animation: rotate 3s infinite linear;
+}
+
+@keyframes rotate {
+  100% { transform: rotate(360deg); }
+}
+</style>
+
+<img src="https://via.placeholder.com/150">
