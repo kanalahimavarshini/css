@@ -247,3 +247,14 @@ button {
   <p>Step 1</p>
   <p>Step 2</p>
 </div>
+<style>
+img {
+  filter: grayscale(100%);
+}
+
+img:hover {
+  filter: grayscale(0%);
+}
+</style>
+
+<img src="https://via.placeholder.com/200">
