@@ -212,3 +212,13 @@ button {
   <img src="https://via.placeholder.com/200">
   <p>Card Text</p>
 </div>
+<style>
+.box {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+</style>
+
+<div class="box">Centered Text</div>
