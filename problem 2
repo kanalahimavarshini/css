@@ -302,3 +302,44 @@ table, th, td {
 <tr><th>Name</th><th>Age</th></tr>
 <tr><td>A</td><td>20</td></tr>
 </table>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+}
+
+.sidebar {
+  position: fixed;
+  left: -200px;
+  width: 200px;
+  height: 100%;
+  background: black;
+  color: white;
+  transition: 0.3s;
+  padding: 20px;
+}
+
+.sidebar.active {
+  left: 0;
+}
+
+button {
+  margin: 20px;
+}
+</style>
+</head>
+<body>
+
+<button onclick="document.querySelector('.sidebar').classList.toggle('active')">
+  Menu
+</button>
+
+<div class="sidebar">
+  <p>Home</p>
+  <p>About</p>
+</div>
+
+</body>
+</html>
