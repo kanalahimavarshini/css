@@ -15,3 +15,13 @@
 </style>
 
 <div class="ball"></div>
+<style>
+button {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  background: linear-gradient(to right, blue, purple);
+}
+</style>
+
+<button>Gradient</button>
