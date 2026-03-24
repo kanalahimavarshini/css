@@ -68,3 +68,14 @@ img:hover {
 </style>
 
 <div class="hero"></div>
+<style>
+button {
+  transition: 0.5s;
+}
+
+button:hover {
+  transform: rotate(360deg);
+}
+</style>
+
+<button>Rotate</button>
