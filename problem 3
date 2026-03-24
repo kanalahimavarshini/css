@@ -79,3 +79,21 @@ button:hover {
 </style>
 
 <button>Rotate</button>
+<style>
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: gray;
+  display: inline-block;
+  margin: 5px;
+}
+
+.active {
+  background: green;
+}
+</style>
+
+<div class="circle active"></div>
+<div class="circle"></div>
+<div class="circle"></div>
