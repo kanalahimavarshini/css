@@ -124,3 +124,15 @@ button:hover {
 </style>
 
 <div class="card">Hover here</div>
+<style>
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: black;
+  color: white;
+  text-align: center;
+}
+</style>
+
+<div class="footer">Footer</div>
