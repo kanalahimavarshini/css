@@ -112,3 +112,15 @@ button:hover {
 </style>
 
 <div class="text">Hello World</div>
+<style>
+.card {
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background: lightyellow;
+}
+</style>
+
+<div class="card">Hover here</div>
