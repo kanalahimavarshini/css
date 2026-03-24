@@ -136,3 +136,17 @@ button:hover {
 </style>
 
 <div class="footer">Footer</div>
+<style>
+.content {
+  display: none;
+}
+
+.box:hover .content {
+  display: block;
+}
+</style>
+
+<div class="box">
+  Hover me
+  <div class="content">Hidden content</div>
+</div>
