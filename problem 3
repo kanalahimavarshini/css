@@ -205,3 +205,17 @@ p {
 </style>
 
 <div class="parallax"></div>
+<style>
+.dots::after {
+  content: '';
+  animation: dots 1s infinite;
+}
+
+@keyframes dots {
+  0% { content: ''; }
+  50% { content: '...'; }
+  100% { content: ''; }
+}
+</style>
+
+<div class="dots">Loading</div>
