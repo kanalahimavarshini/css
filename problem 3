@@ -283,3 +283,18 @@ input:focus + label {
   <input type="text">
   <label>Name</label>
 </div>
+<style>
+.loader {
+  width: 50px;
+  height: 50px;
+  border: 5px dashed blue;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
+</style>
+
+<div class="loader"></div>
