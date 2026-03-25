@@ -195,3 +195,13 @@ p {
 </style>
 
 <p>Long long text that will be limited to only two lines in display.</p>
+<style>
+.parallax {
+  height: 300px;
+  background: url('https://via.placeholder.com/600') no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+<div class="parallax"></div>
