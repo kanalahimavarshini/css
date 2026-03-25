@@ -184,3 +184,14 @@ h1 {
 </style>
 
 <div class="box"></div>
+<style>
+p {
+  width: 200px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+</style>
+
+<p>Long long text that will be limited to only two lines in display.</p>
