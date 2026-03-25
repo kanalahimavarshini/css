@@ -257,3 +257,29 @@ button:hover {
 </style>
 
 <div class="progress"></div>
+<style>
+.input-box {
+  position: relative;
+}
+
+input {
+  padding: 10px;
+}
+
+label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transition: 0.3s;
+}
+
+input:focus + label {
+  top: -10px;
+  font-size: 12px;
+}
+</style>
+
+<div class="input-box">
+  <input type="text">
+  <label>Name</label>
+</div>
