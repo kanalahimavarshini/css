@@ -243,3 +243,17 @@ button:hover {
 </style>
 
 <button>Slide</button>
+<style>
+.progress {
+  width: 0;
+  height: 20px;
+  background: green;
+  animation: load 3s forwards;
+}
+
+@keyframes load {
+  to { width: 100%; }
+}
+</style>
+
+<div class="progress"></div>
