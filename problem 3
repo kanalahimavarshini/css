@@ -230,3 +230,16 @@ img:hover {
 </style>
 
 <img src="https://via.placeholder.com/200">
+<style>
+button {
+  background: linear-gradient(to right, red 50%, blue 50%);
+  background-size: 200%;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-position: right;
+}
+</style>
+
+<button>Slide</button>
