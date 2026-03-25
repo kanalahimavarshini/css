@@ -298,3 +298,16 @@ input:focus + label {
 </style>
 
 <div class="loader"></div>
+<style>
+.card {
+  padding: 20px;
+  background: lightgray;
+  transition: 0.3s;
+}
+
+.card:hover {
+  filter: blur(2px);
+}
+</style>
+
+<div class="card">Hover Me</div>
