@@ -135,3 +135,19 @@ span {
 </style>
 
 <span>W</span><span>A</span><span>V</span><span>E</span>
+<style>
+.tooltip {
+  position: relative;
+}
+
+.tooltip::after {
+  content: "";
+  position: absolute;
+  border: 5px solid transparent;
+  border-top-color: black;
+  top: 100%;
+  left: 10px;
+}
+</style>
+
+<div class="tooltip">Tooltip</div>
