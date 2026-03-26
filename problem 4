@@ -223,3 +223,14 @@ img {
 </style>
 
 <img src="https://via.placeholder.com/200">
+<style>
+button {
+  transition: 0.3s;
+}
+
+button:hover {
+  width: 200px;
+}
+</style>
+
+<button>Hover</button>
