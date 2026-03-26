@@ -85,3 +85,16 @@ button:active {
 </style>
 
 <div class="divider"></div>
+<style>
+.card {
+  height: 100px;
+  background: lightblue;
+  transition: 0.3s;
+}
+
+.card:hover {
+  height: 200px;
+}
+</style>
+
+<div class="card"></div>
