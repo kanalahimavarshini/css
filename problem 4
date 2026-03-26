@@ -249,3 +249,13 @@ body {
 </style>
 
 <div class="footer">Footer</div>
+<style>
+li:hover {
+  background: lightgray;
+}
+</style>
+
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
