@@ -112,3 +112,14 @@ button:active {
 </style>
 
 <div class="box"></div>
+<style>
+.progress {
+  position: fixed;
+  top: 0;
+  height: 5px;
+  background: red;
+  width: 50%;
+}
+</style>
+
+<div class="progress"></div>
