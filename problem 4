@@ -123,3 +123,15 @@ button:active {
 </style>
 
 <div class="progress"></div>
+<style>
+span {
+  display: inline-block;
+  animation: wave 1s infinite;
+}
+
+@keyframes wave {
+  50% { transform: translateY(-10px); }
+}
+</style>
+
+<span>W</span><span>A</span><span>V</span><span>E</span>
