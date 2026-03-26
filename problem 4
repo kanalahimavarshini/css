@@ -167,3 +167,14 @@ img:active {
 </style>
 
 <div class="box">Gradient Border</div>
+<style>
+.blink {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+</style>
+
+<p class="blink">Blinking Text</p>
