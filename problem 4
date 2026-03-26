@@ -151,3 +151,10 @@ span {
 </style>
 
 <div class="tooltip">Tooltip</div>
+<style>
+img:active {
+  transform: scale(0.9);
+}
+</style>
+
+<img src="https://via.placeholder.com/150">
