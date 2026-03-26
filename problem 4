@@ -259,3 +259,17 @@ li:hover {
   <li>Item 1</li>
   <li>Item 2</li>
 </ul>
+<style>
+.loader {
+  width: 40px;
+  height: 40px;
+  background: black;
+  animation: rotate 1s infinite;
+}
+
+@keyframes rotate {
+  50% { transform: rotate(180deg); }
+}
+</style>
+
+<div class="loader"></div>
