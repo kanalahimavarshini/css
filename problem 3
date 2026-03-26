@@ -318,3 +318,17 @@ h1 {
 </style>
 
 <h1>SPACING</h1>
+<style>
+.box {
+  width: 100px;
+  height: 100px;
+  background: purple;
+  animation: shape 2s infinite;
+}
+
+@keyframes shape {
+  50% { border-radius: 50%; }
+}
+</style>
+
+<div class="box"></div>
