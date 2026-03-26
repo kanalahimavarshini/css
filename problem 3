@@ -311,3 +311,10 @@ input:focus + label {
 </style>
 
 <div class="card">Hover Me</div>
+<style>
+h1 {
+  letter-spacing: 5px;
+}
+</style>
+
+<h1>SPACING</h1>
