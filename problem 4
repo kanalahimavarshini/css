@@ -202,3 +202,17 @@ body {
 </style>
 
 <div class="ripple"></div>
+<style>
+.card {
+  width: 150px;
+  height: 150px;
+  background: pink;
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: rotate(15deg);
+}
+</style>
+
+<div class="card"></div>
