@@ -13,3 +13,16 @@ button:hover {
 </style>
 
 <button>Glow</button>
+<style>
+.text {
+  position: relative;
+  left: -200px;
+  animation: slide 2s forwards;
+}
+
+@keyframes slide {
+  to { left: 0; }
+}
+</style>
+
+<div class="text">Slide In</div>
