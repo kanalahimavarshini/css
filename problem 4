@@ -216,3 +216,10 @@ body {
 </style>
 
 <div class="card"></div>
+<style>
+img {
+  filter: sepia(100%);
+}
+</style>
+
+<img src="https://via.placeholder.com/200">
