@@ -308,3 +308,18 @@ img:hover {
 </style>
 
 <img src="https://via.placeholder.com/200">
+<style>
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid black;
+  animation: spin 3s infinite linear;
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
+</style>
+
+<div class="circle"></div>
