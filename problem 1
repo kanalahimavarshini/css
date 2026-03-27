@@ -370,3 +370,11 @@ button:hover {
 </style>
 
 <button>Slide</button>
+<style>
+.box {
+  border: 5px double black;
+  padding: 20px;
+}
+</style>
+
+<div class="box">Double Border</div>
