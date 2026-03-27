@@ -273,3 +273,17 @@ li:hover {
 </style>
 
 <div class="loader"></div>
+<style>
+.box {
+  height: 0;
+  overflow: hidden;
+  background: lightblue;
+  transition: 0.5s;
+}
+
+.box:hover {
+  height: 100px;
+}
+</style>
+
+<div class="box">Hidden Content</div>
