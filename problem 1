@@ -389,3 +389,14 @@ p:hover {
 </style>
 
 <p>Hover Me</p>
+<style>
+body {
+  animation: bg 5s infinite;
+}
+
+@keyframes bg {
+  0% { background: red; }
+  50% { background: blue; }
+  100% { background: green; }
+}
+</style>
