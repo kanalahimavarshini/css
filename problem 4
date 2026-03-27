@@ -296,3 +296,15 @@ h1 {
 </style>
 
 <h1>Glow Text</h1>
+<style>
+img {
+  width: 100px;
+  transition: 0.5s;
+}
+
+img:hover {
+  width: 200px;
+}
+</style>
+
+<img src="https://via.placeholder.com/200">
