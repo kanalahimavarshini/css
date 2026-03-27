@@ -323,3 +323,15 @@ img:hover {
 </style>
 
 <div class="circle"></div>
+<style>
+button {
+  box-shadow: 0 5px gray;
+}
+
+button:active {
+  box-shadow: 0 2px gray;
+  transform: translateY(3px);
+}
+</style>
+
+<button>Click</button>
