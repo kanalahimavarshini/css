@@ -357,3 +357,16 @@ h2 {
 </style>
 
 <h2>Rotate</h2>
+<style>
+button {
+  position: relative;
+  left: 0;
+  transition: 0.3s;
+}
+
+button:hover {
+  left: 20px;
+}
+</style>
+
+<button>Slide</button>
