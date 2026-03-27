@@ -378,3 +378,14 @@ button:hover {
 </style>
 
 <div class="box">Double Border</div>
+<style>
+p {
+  transition: 0.3s;
+}
+
+p:hover {
+  transform: scale(1.5);
+}
+</style>
+
+<p>Hover Me</p>
