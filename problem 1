@@ -345,3 +345,15 @@ body {
 </style>
 
 <div class="box"></div>
+<style>
+h2 {
+  display: inline-block;
+  animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+  100% { transform: rotate(360deg); }
+}
+</style>
+
+<h2>Rotate</h2>
