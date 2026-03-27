@@ -317,3 +317,17 @@ body {
 
 </body>
 </html>
+<style>
+.box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: 0.5s;
+}
+
+.box:hover {
+  opacity: 0;
+}
+</style>
+
+<div class="box"></div>
