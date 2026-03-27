@@ -331,3 +331,17 @@ body {
 </style>
 
 <div class="box"></div>
+<style>
+.box {
+  width: 100px;
+  height: 100px;
+  border: 3px dashed black;
+  animation: dash 1s infinite;
+}
+
+@keyframes dash {
+  50% { border-color: red; }
+}
+</style>
+
+<div class="box"></div>
