@@ -287,3 +287,12 @@ li:hover {
 </style>
 
 <div class="box">Hidden Content</div>
+<style>
+h1 {
+  color: white;
+  text-shadow: 0 0 10px red, 0 0 20px blue;
+  background: black;
+}
+</style>
+
+<h1>Glow Text</h1>
