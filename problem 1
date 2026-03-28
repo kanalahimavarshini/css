@@ -478,3 +478,11 @@ button:hover {
   <img src="https://via.placeholder.com/200">
   <div class="overlay"></div>
 </div>
+<style>
+h1 {
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+}
+</style>
+
+<h1>Stroke</h1>
