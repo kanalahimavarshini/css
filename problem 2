@@ -392,3 +392,17 @@ body {
 </style>
 
 <div class="icon">🔄</div>
+<style>
+.card img {
+  width: 200px;
+  transition: 0.3s;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+</style>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200">
+</div>
