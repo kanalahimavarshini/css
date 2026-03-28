@@ -427,3 +427,13 @@ p {
 </style>
 
 <p>Vertical Text</p>
+<style>
+body {
+  animation: fadebg 5s infinite alternate;
+}
+
+@keyframes fadebg {
+  from { background: pink; }
+  to { background: lightblue; }
+}
+</style>
