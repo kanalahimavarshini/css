@@ -400,3 +400,34 @@ body {
   100% { background: green; }
 }
 </style>
+<style>
+button {
+  border: 2px solid black;
+  padding: 10px 20px;
+  background: transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  background: black;
+  left: 0;
+  top: 0;
+  transition: 0.3s;
+  z-index: -1;
+}
+
+button:hover::before {
+  height: 100%;
+}
+
+button:hover {
+  color: white;
+}
+</style>
+
+<button>Hover Me</button>
