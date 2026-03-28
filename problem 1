@@ -440,3 +440,16 @@ button:hover {
 </style>
 
 <div class="card">Gradient Border</div>
+<style>
+.btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: green;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+}
+</style>
+
+<div class="btn">+</div>
