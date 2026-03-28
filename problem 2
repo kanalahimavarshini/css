@@ -420,3 +420,10 @@ body {
 </style>
 
 <div class="box"></div>
+<style>
+p {
+  writing-mode: vertical-rl;
+}
+</style>
+
+<p>Vertical Text</p>
