@@ -406,3 +406,17 @@ body {
 <div class="card">
   <img src="https://via.placeholder.com/200">
 </div>
+<style>
+.box {
+  width: 100px;
+  height: 100px;
+  background: gray;
+  transition: 0.3s;
+}
+
+.box:hover {
+  box-shadow: 0 0 20px blue;
+}
+</style>
+
+<div class="box"></div>
