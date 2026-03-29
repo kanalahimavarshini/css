@@ -463,3 +463,17 @@ button:hover::before {
 </style>
 
 <div class="text">Reveal Text</div>
+<style>
+.container:hover * {
+  filter: blur(2px);
+}
+
+.container:hover div:hover {
+  filter: none;
+}
+</style>
+
+<div class="container">
+  <div>Item 1</div>
+  <div>Item 2</div>
+</div>
