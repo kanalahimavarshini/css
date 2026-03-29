@@ -349,3 +349,15 @@ button:hover {
 </style>
 
 <button></button>
+<style>
+h1 {
+  animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  from { text-shadow: 0 0 5px red; }
+  to { text-shadow: 0 0 20px yellow; }
+}
+</style>
+
+<h1>Glow</h1>
