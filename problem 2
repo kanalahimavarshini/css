@@ -448,3 +448,28 @@ button {
 button::after {
   content: "";
   position: absolute
+  <style>
+button {
+  position: relative;
+  background: none;
+  border: none;
+  font-size: 18px;
+}
+
+button::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: black;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+button:hover::after {
+  width: 100%;
+}
+</style>
+
+<button>Hover</button>
