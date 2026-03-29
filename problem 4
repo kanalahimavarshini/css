@@ -477,3 +477,24 @@ button:hover::before {
   <div>Item 1</div>
   <div>Item 2</div>
 </div>
+<style>
+.loader {
+  display: flex;
+}
+
+.loader div {
+  width: 10px;
+  height: 10px;
+  background: black;
+  margin: 3px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+</style>
+
+<div class="loader">
+  <div></div><div></div><div></div>
+</div>
