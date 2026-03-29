@@ -421,3 +421,17 @@ button:hover::before {
 </style>
 
 <button>Shine</button>
+<style>
+.card {
+  width: 150px;
+  height: 100px;
+  background: lightblue;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: skew(10deg);
+}
+</style>
+
+<div class="card"></div>
