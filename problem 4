@@ -361,3 +361,26 @@ h1 {
 </style>
 
 <h1>Glow</h1>
+<style>
+.card {
+  position: relative;
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+  background: lightgray;
+}
+
+.content {
+  position: absolute;
+  bottom: -100%;
+  transition: 0.3s;
+}
+
+.card:hover .content {
+  bottom: 0;
+}
+</style>
+
+<div class="card">
+  <div class="content">Details</div>
+</div>
