@@ -435,3 +435,17 @@ button:hover::before {
 </style>
 
 <div class="card"></div>
+<style>
+.box {
+  width: 100px;
+  height: 100px;
+  background: green;
+  animation: round 2s infinite;
+}
+
+@keyframes round {
+  50% { border-radius: 50%; }
+}
+</style>
+
+<div class="box"></div>
