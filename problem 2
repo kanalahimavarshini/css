@@ -437,3 +437,14 @@ body {
   to { background: lightblue; }
 }
 </style>
+<style>
+button {
+  position: relative;
+  background: none;
+  border: none;
+  font-size: 18px;
+}
+
+button::after {
+  content: "";
+  position: absolute
