@@ -397,3 +397,16 @@ button:hover {
 </style>
 
 <div class="box"></div>
+<style>
+.box {
+  border: 3px dashed black;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.box:hover {
+  border-style: solid;
+}
+</style>
+
+<div class="box">Hover Me</div>
