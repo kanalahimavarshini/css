@@ -347,3 +347,14 @@ h1 {
 </style>
 
 <div class="box"></div>
+<style>
+p {
+  animation: fade 2s infinite;
+}
+
+@keyframes fade {
+  50% { opacity: 0; }
+}
+</style>
+
+<p>Fading Text</p>
