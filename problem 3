@@ -435,3 +435,17 @@ h1 {
 </style>
 
 <h1>Shadow Move</h1>
+<style>
+.box {
+  width: 100px;
+  height: 100px;
+  background: pink;
+  transition: 0.3s;
+}
+
+.box:hover {
+  transform: rotate(20deg) scale(1.2);
+}
+</style>
+
+<div class="box"></div>
