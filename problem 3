@@ -462,3 +462,21 @@ p:hover {
 </style>
 
 <p>Hover Text</p>
+<style>
+.popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: black;
+  color: white;
+  padding: 10px;
+  animation: show 2s;
+}
+
+@keyframes show {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+</style>
+
+<div class="popup">Notification</div>
