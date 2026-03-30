@@ -498,3 +498,34 @@ button:hover::before {
 <div class="loader">
   <div></div><div></div><div></div>
 </div>
+<style>
+button {
+  position: relative;
+  padding: 10px 20px;
+  border: 2px solid black;
+  background: transparent;
+  overflow: hidden;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background: black;
+  left: 0;
+  top: 0;
+  transition: 0.3s;
+  z-index: -1;
+}
+
+button:hover::before {
+  width: 100%;
+}
+
+button:hover {
+  color: white;
+}
+</style>
+
+<button>Fill</button>
