@@ -358,3 +358,14 @@ p {
 </style>
 
 <p>Fading Text</p>
+<style>
+img {
+  transition: 0.3s;
+}
+
+img:hover {
+  transform: rotate(-10deg);
+}
+</style>
+
+<img src="https://via.placeholder.com/150">
