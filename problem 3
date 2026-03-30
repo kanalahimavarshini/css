@@ -410,3 +410,17 @@ button:hover {
 </style>
 
 <div class="box">Hover Me</div>
+<style>
+.box {
+  width: 100px;
+  height: 50px;
+  background: teal;
+  animation: grow 2s infinite alternate;
+}
+
+@keyframes grow {
+  to { height: 150px; }
+}
+</style>
+
+<div class="box"></div>
