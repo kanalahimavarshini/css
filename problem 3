@@ -383,3 +383,17 @@ button:hover {
 </style>
 
 <button>Slide BG</button>
+<style>
+.box {
+  width: 100px;
+  height: 100px;
+  background: orange;
+  transition: 0.3s;
+}
+
+.box:hover {
+  transform: scale(0.8);
+}
+</style>
+
+<div class="box"></div>
