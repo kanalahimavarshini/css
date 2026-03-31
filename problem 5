@@ -127,3 +127,12 @@ body {
   100% { transform: rotate(360deg); }
 }
 </style>
+<style>
+body {
+  animation: rotateBg 5s infinite linear;
+}
+
+@keyframes rotateBg {
+  100% { transform: rotate(360deg); }
+}
+</style>
