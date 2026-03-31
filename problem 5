@@ -176,3 +176,26 @@ img:hover {
 </style>
 
 <img src="https://via.placeholder.com/200">
+<style>
+.box {
+  position: relative;
+  padding: 20px;
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  background: black;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+.box:hover::before {
+  width: 100%;
+}
+</style>
+
+<div class="box">Hover Border</div>
