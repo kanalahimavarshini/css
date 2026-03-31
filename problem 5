@@ -163,3 +163,16 @@ button:active::after {
 </style>
 
 <button>Ripple</button>
+<style>
+img {
+  width: 200px;
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+img:hover {
+  transform: scale(1);
+}
+</style>
+
+<img src="https://via.placeholder.com/200">
