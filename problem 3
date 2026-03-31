@@ -480,3 +480,19 @@ p:hover {
 </style>
 
 <div class="popup">Notification</div>
+<style>
+button {
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+button:hover {
+  animation: bounce 0.5s;
+}
+
+@keyframes bounce {
+  50% { transform: translateY(-10px); }
+}
+</style>
+
+<button>Bounce</button>
