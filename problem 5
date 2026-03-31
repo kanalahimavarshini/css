@@ -198,4 +198,19 @@ img:hover {
 }
 </style>
 
+
 <div class="box">Hover Border</div>
+<style>
+.card {
+  width: 200px;
+  padding: 20px;
+  background: white;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+}
+</style>
+
+<div class="card">Floating Card</div>
