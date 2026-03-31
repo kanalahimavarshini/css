@@ -24,3 +24,16 @@
 </style>
 
 <div class="icon">❤️</div>
+<style>
+.box {
+  border: 2px solid black;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.box:hover {
+  padding: 30px;
+}
+</style>
+
+<div class="box">Expand</div>
