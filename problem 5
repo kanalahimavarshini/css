@@ -72,3 +72,17 @@ p:hover {
 </style>
 
 <p>Rotate Me</p>
+<style>
+.bar {
+  width: 0;
+  height: 10px;
+  background: green;
+  animation: load 2s infinite;
+}
+
+@keyframes load {
+  to { width: 100%; }
+}
+</style>
+
+<div class="bar"></div>
