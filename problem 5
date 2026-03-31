@@ -118,3 +118,12 @@ p:hover {
 <div class="container">
   <div class="text">Slide Up</div>
 </div>
+<style>
+body {
+  animation: rotateBg 5s infinite linear;
+}
+
+@keyframes rotateBg {
+  100% { transform: rotate(360deg); }
+}
+</style>
