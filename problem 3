@@ -508,3 +508,18 @@ img:hover {
 </style>
 
 <img src="https://via.placeholder.com/150">
+<style>
+.text {
+  border-right: 2px solid black;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 150px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+</style>
+
+<div class="text">Typing Cursor</div>
