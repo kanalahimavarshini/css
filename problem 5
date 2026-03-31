@@ -37,3 +37,26 @@
 </style>
 
 <div class="box">Expand</div>
+<style>
+.container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.container:hover .overlay {
+  opacity: 0.4;
+}
+</style>
+
+<div class="container">
+  <img src="https://via.placeholder.com/200">
+  <div class="overlay"></div>
+</div>
