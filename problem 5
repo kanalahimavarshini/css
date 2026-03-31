@@ -244,3 +244,15 @@ h1 {
 </style>
 
 <h1>Gradient Move</h1>
+<style>
+h2 {
+  display: inline-block;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  50% { transform: translateY(-10px); }
+}
+</style>
+
+<h2>Bounce</h2>
