@@ -1,0 +1,14 @@
+<style>
+.card {
+  padding: 20px;
+  background: linear-gradient(white, lightgray);
+  transition: 0.3s;
+}
+
+.card:hover {
+  background: linear-gradient(blue, purple);
+  color: white;
+}
+</style>
+
+<div class="card">Hover Card</div>
