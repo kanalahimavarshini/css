@@ -136,3 +136,30 @@ body {
   100% { transform: rotate(360deg); }
 }
 </style>
+<style>
+button {
+  position: relative;
+  overflow: hidden;
+  padding: 10px 20px;
+}
+
+button::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background: rgba(0,0,0,0.3);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+}
+
+button:active::after {
+  width: 200px;
+  height: 200px;
+}
+</style>
+
+<button>Ripple</button>
