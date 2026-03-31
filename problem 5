@@ -86,3 +86,17 @@ p:hover {
 </style>
 
 <div class="bar"></div>
+<style>
+.box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid transparent;
+  animation: glow 2s infinite;
+}
+
+@keyframes glow {
+  50% { border-color: red; }
+}
+</style>
+
+<div class="box"></div>
