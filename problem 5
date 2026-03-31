@@ -100,3 +100,21 @@ p:hover {
 </style>
 
 <div class="box"></div>
+<style>
+.container {
+  height: 50px;
+  overflow: hidden;
+}
+
+.text {
+  transition: 0.3s;
+}
+
+.container:hover .text {
+  transform: translateY(-50px);
+}
+</style>
+
+<div class="container">
+  <div class="text">Slide Up</div>
+</div>
