@@ -12,3 +12,15 @@
 </style>
 
 <div class="card">Hover Card</div>
+<style>
+.icon {
+  font-size: 30px;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  50% { transform: scale(1.2); }
+}
+</style>
+
+<div class="icon">❤️</div>
