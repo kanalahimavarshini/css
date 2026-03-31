@@ -266,3 +266,14 @@ button {
 </style>
 
 <button>Glass</button>
+<style>
+img {
+  transition: 0.3s;
+}
+
+img:hover {
+  filter: brightness(0);
+}
+</style>
+
+<img src="https://via.placeholder.com/200">
