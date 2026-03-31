@@ -496,3 +496,15 @@ button:hover {
 </style>
 
 <button>Bounce</button>
+<style>
+img {
+  transition: 0.3s;
+}
+
+img:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px gray;
+}
+</style>
+
+<img src="https://via.placeholder.com/150">
