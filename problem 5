@@ -303,3 +303,17 @@ img:hover {
 </style>
 
 <div class="line"></div>
+<style>
+.card {
+  width: 150px;
+  height: 100px;
+  background: lightgray;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  50% { box-shadow: 0 0 20px blue; }
+}
+</style>
+
+<div class="card"></div>
