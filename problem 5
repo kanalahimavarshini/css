@@ -360,3 +360,19 @@ img:hover {
 </style>
 
 <img src="https://via.placeholder.com/200">
+<style>
+span {
+  display: inline-block;
+  animation: wave 1s infinite;
+}
+
+span:nth-child(2) { animation-delay: 0.1s; }
+span:nth-child(3) { animation-delay: 0.2s; }
+span:nth-child(4) { animation-delay: 0.3s; }
+
+@keyframes wave {
+  50% { transform: translateY(-10px); }
+}
+</style>
+
+<span>T</span><span>E</span><span>X</span><span>T</span>
