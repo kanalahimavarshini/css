@@ -348,3 +348,15 @@ button:hover {
 </style>
 
 <button>Slide Up</button>
+<style>
+img {
+  width: 200px;
+  transition: 0.4s;
+}
+
+img:hover {
+  transform: scale(1.2) rotate(10deg);
+}
+</style>
+
+<img src="https://via.placeholder.com/200">
