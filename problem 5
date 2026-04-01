@@ -418,3 +418,27 @@ input:focus {
 </style>
 
 <div class="box"></div>
+<style>
+p {
+  position: relative;
+  display: inline-block;
+}
+
+p::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background: yellow;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 0.3s;
+}
+
+p:hover::before {
+  width: 100%;
+}
+</style>
+
+<p>Hover Highlight</p>
