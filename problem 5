@@ -390,3 +390,17 @@ span:nth-child(4) { animation-delay: 0.3s; }
 </style>
 
 <div class="box"></div>
+<style>
+input {
+  padding: 10px;
+  border: 1px solid gray;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: blue;
+  box-shadow: 0 0 10px blue;
+}
+</style>
+
+<input type="text" placeholder="Focus me">
