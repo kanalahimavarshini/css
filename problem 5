@@ -456,3 +456,21 @@ p:hover::before {
 </style>
 
 <div class="card"></div>
+<style>
+.loader div {
+  width: 10px;
+  height: 10px;
+  background: black;
+  margin: 3px;
+  display: inline-block;
+  animation: grow 1s infinite;
+}
+
+@keyframes grow {
+  50% { transform: scale(1.5); }
+}
+</style>
+
+<div class="loader">
+  <div></div><div></div><div></div>
+</div>
