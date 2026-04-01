@@ -277,3 +277,15 @@ img:hover {
 </style>
 
 <img src="https://via.placeholder.com/200">
+<style>
+.icon {
+  font-size: 40px;
+  animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
+</style>
+
+<div class="icon">⚙️</div>
