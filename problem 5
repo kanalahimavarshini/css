@@ -376,3 +376,17 @@ span:nth-child(4) { animation-delay: 0.3s; }
 </style>
 
 <span>T</span><span>E</span><span>X</span><span>T</span>
+<style>
+.box {
+  width: 100px;
+  height: 100px;
+  background: gray;
+  transition: 0.3s;
+}
+
+.box:hover {
+  box-shadow: 0 0 30px black;
+}
+</style>
+
+<div class="box"></div>
