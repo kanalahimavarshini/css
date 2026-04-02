@@ -61,3 +61,17 @@ h2 {
 </style>
 
 <h2>Flip</h2>
+<style>
+.card {
+  width: 150px;
+  height: 100px;
+  background: white;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px purple;
+}
+</style>
+
+<div class="card"></div>
