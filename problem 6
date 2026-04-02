@@ -49,3 +49,15 @@ input:focus {
 </style>
 
 <div class="circle"></div>
+<style>
+h2 {
+  display: inline-block;
+  animation: flip 2s infinite;
+}
+
+@keyframes flip {
+  50% { transform: rotateY(180deg); }
+}
+</style>
+
+<h2>Flip</h2>
