@@ -92,3 +92,18 @@ h2 {
 </style>
 
 <div class="text">Hello</div>
+<style>
+.circle {
+  width: 80px;
+  height: 80px;
+  border: 4px dashed black;
+  border-radius: 50%;
+  animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
+</style>
+
+<div class="circle"></div>
