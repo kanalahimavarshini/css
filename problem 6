@@ -138,3 +138,25 @@ button:hover {
 </style>
 
 <button>Gradient Border</button>
+<style>
+button {
+  position: relative;
+  padding: 10px 20px;
+  overflow: hidden;
+}
+
+span {
+  position: absolute;
+  left: -30px;
+  transition: 0.3s;
+}
+
+button:hover span {
+  left: 10px;
+}
+</style>
+
+<button>
+  <span>👉</span>
+  Click Me
+</button>
