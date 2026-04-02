@@ -1,0 +1,13 @@
+<style>
+input {
+  width: 120px;
+  padding: 8px;
+  transition: 0.3s;
+}
+
+input:focus {
+  width: 220px;
+}
+</style>
+
+<input type="text" placeholder="Search">
