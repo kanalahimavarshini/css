@@ -11,3 +11,26 @@ input:focus {
 </style>
 
 <input type="text" placeholder="Search">
+<style>
+.box {
+  position: relative;
+  padding: 20px;
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0;
+  background: black;
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+.box:hover::before {
+  width: 100%;
+}
+</style>
+
+<div class="box">Top Border</div>
