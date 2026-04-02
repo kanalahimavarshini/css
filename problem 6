@@ -122,3 +122,19 @@ h2 {
 </style>
 
 <div class="card"></div>
+<style>
+button {
+  padding: 10px 20px;
+  border: 2px solid;
+  border-image: linear-gradient(45deg, red, blue) 1;
+  background: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
+</style>
+
+<button>Gradient Border</button>
