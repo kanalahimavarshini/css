@@ -34,3 +34,18 @@ input:focus {
 </style>
 
 <div class="box">Top Border</div>
+<style>
+.circle {
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 50%;
+  animation: bounce 0.8s infinite alternate;
+}
+
+@keyframes bounce {
+  to { transform: translateY(-20px); }
+}
+</style>
+
+<div class="circle"></div>
