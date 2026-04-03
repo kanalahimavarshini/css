@@ -175,3 +175,32 @@ button {
 </style>
 
 <button>Glow Border</button>
+<style>
+.box {
+  width: 150px;
+  height: 100px;
+  background: lightgray;
+  position: relative;
+  overflow: hidden;
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background: lightblue;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transition: 0.4s;
+  transform: translate(-50%, -50%);
+}
+
+.box:hover::before {
+  width: 300px;
+  height: 300px;
+}
+</style>
+
+<div class="box"></div>
