@@ -332,3 +332,14 @@ h1 {
 </style>
 
 <h1>Stretch</h1>
+<style>
+body {
+  background: linear-gradient(to right, red, blue);
+  background-size: 200%;
+  animation: slide 3s infinite alternate;
+}
+
+@keyframes slide {
+  to { background-position: right; }
+}
+</style>
