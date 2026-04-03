@@ -204,3 +204,15 @@ button {
 </style>
 
 <div class="box"></div>
+<style>
+p {
+  display: inline-block;
+  transition: 0.3s;
+}
+
+p:hover {
+  transform: translateX(-10px);
+}
+</style>
+
+<p>Slide Left</p>
