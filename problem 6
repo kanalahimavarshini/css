@@ -343,3 +343,16 @@ body {
   to { background-position: right; }
 }
 </style>
+<style>
+img {
+  width: 150px;
+  transition: 0.3s;
+}
+
+img:hover {
+  transform: scale(1.2);
+  opacity: 0.7;
+}
+</style>
+
+<img src="https://via.placeholder.com/150">
