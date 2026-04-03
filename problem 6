@@ -321,3 +321,14 @@ img:hover {
 </style>
 
 <div class="box"></div>
+<style>
+h1 {
+  animation: stretch 1.5s infinite alternate;
+}
+
+@keyframes stretch {
+  to { letter-spacing: 10px; }
+}
+</style>
+
+<h1>Stretch</h1>
