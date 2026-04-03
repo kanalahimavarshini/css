@@ -160,3 +160,18 @@ button:hover span {
   <span>👉</span>
   Click Me
 </button>
+<style>
+button {
+  padding: 10px 20px;
+  border: 2px solid blue;
+  background: transparent;
+  animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+  from { box-shadow: 0 0 5px blue; }
+  to { box-shadow: 0 0 20px blue; }
+}
+</style>
+
+<button>Glow Border</button>
