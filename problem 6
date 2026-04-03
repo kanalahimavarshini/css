@@ -278,3 +278,20 @@ img:hover {
 </style>
 
 <div class="box"></div>
+<style>
+.text {
+  position: relative;
+  top: -50px;
+  opacity: 0;
+  animation: drop 1s forwards;
+}
+
+@keyframes drop {
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+</style>
+
+<div class="text">Welcome</div>
