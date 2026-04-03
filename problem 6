@@ -252,3 +252,15 @@ p:hover {
     <div class="back">Back</div>
   </div>
 </div>
+<style>
+img {
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+
+img:hover {
+  filter: grayscale(0);
+}
+</style>
+
+<img src="https://via.placeholder.com/200">
